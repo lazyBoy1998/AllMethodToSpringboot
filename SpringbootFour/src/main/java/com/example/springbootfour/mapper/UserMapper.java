@@ -1,2 +1,7 @@
-package com.example.springbootfour.mapper;public interface UserMapper {
+package com.example.springbootfour.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.springbootfour.pojo.User;
+
+public interface UserMapper extends BaseMapper<User> {
 }
